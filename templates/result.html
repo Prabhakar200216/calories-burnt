@@ -1,0 +1,44 @@
+<!-- filepath: c:\Users\pm729\OneDrive\Desktop\calories\calories-burnt\templates\result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calories Burnt Result</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 350px;
+      text-align: center;
+    }
+    .result {
+      font-size: 24px;
+      color: #4CAF50;
+      margin-bottom: 20px;
+    }
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="result">
+      Predicted Calories Burnt: <strong>{{ calories }}</strong>
+    </div>
+    <a href="{{ url_for('home') }}">Predict Again</a>
+  </div>
+</body>
+</html>
