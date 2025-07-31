@@ -65,7 +65,7 @@ The project includes:
 
 ---
 
-## 🛠️ Installation & Usage (Local)
+## 🛠️ Installation & Usage
 
 If you want to run the project locally:
 
@@ -74,7 +74,7 @@ If you want to run the project locally:
 git clone https://github.com/Prabhakar200216/calories-burnt
 cd calorie-predictor
 
-# 2. Create a virtual environment (optional but recommended)
+# 2. Create a virtual environment
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
