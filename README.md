@@ -62,7 +62,7 @@ The project includes:
 
 🔗 **Web App:** [Render Live Link](https://calories-burnt-618i.onrender.com)  
 🔗 **GitHub Repository:** [Project Repo](https://github.com/Prabhakar200216/calories-burnt)
-🔗 **Web App demo Videoo:**()
+🔗 **Web App demo Videoo:**[Video Link](https://github.com/Prabhakar200216/calories-burnt/blob/main/Screen%20Recording%202025-07-31%20151837.mp4)
 ---
 
 ## 🛠️ Installation & Usage
